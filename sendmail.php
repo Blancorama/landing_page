@@ -1,12 +1,17 @@
 <?php
     require_once('PHPMailer/PHPMailerAutoload.php');
 
+    $username = getenv('SMTP_USERNAME');
+    $password = getenv('SMTP_PASSWORD');
+
+
     if(isset($_POST['mail'])) {
         if(!isset($_POST['name']) || !isset($_POST['mail'])) {
             echo "<b>Error y el formulario no ha sido enviado. </b><br />";
             echo "Por favor, regreses y verifique sus datos<br />";
             die();
         }
+
 
         $email_to = "subscripciones@blancorama.com";
         $email_cc = "mateo@paybook.com";
@@ -25,9 +30,9 @@
         $mail->Host = "smtp.gmail.com";
         $mail->Port = 465; // or 587
         //$mail->IsHTML(true);
-        $mail->Username = "email@mail.com";
-        $mail->Password = "password";
-        $mail->SetFrom("email@mail.com");
+        $mail->Username = $username;
+        $mail->Password = $password;
+        $mail->SetFrom($username);
         $mail->Subject = $email_subject;
         $mail->Body = $email_message;
         $mail->AddAddress($email_to, 'Jessica T.');
