@@ -13,8 +13,6 @@
    <link href='imagenes/favicon.png' rel='shortcut icon' type='image/png'>
 
    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Nirmala UI' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Rounded Elegance' rel='stylesheet' type='text/css'>
 
    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    <script src="js/script.js"></script>
