@@ -8,7 +8,7 @@
    <meta charset="UTF-8" />
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/style_0.1.css">
 
    <link href='imagenes/favicon.png' rel='shortcut icon' type='image/png'>
 
