@@ -22,19 +22,12 @@
    <link rel="stylesheet" href="css/bootstrap.css">
 
 
-
-
-
-  <link rel="stylesheet" type="text/css" media="all" href="style.css">
-  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-  <script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
-
   <!-- owl carousel SLIDER -->
     <link rel="stylesheet" href="css/owl.carousel.css">
     <!-- end awesome icons -->
     <link rel="stylesheet" href="css/font-awesome.css">
     <!-- lightbox -->
-    <link href="css/prettyPhoto.css" rel="stylesheet">
+
     
     <!-- Animation Effect CSS -->
     <link rel="stylesheet" href="css/animation.css">
@@ -74,7 +67,7 @@ var ml_account = ml('accounts', '856535', 'g2n6n3k3c8', 'load');
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
    <script>
       $(document).ready(function()
@@ -418,15 +411,13 @@ var ml_account = ml('accounts', '856535', 'g2n6n3k3c8', 'load');
 <a href="javascript:;" onclick="ml_webform_538875('show')">click click click click</a>
 
      
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>   
-    <script src="js/jquery.js"></script>
+
     <script src="js/bootstrap.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/jquery.parallax-1.1.3.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.js"></script>
   <script src="js/jquery.jigowatt.js"></script>
-    <script src="js/custom.js"></script>
   <script src="js/jquery.unveilEffects.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
   <script>
